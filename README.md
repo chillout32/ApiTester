@@ -1,6 +1,10 @@
 # ApiTester
 Tests API requests using postman collections
 
+Run (While in apitester directory):
+
+newman run apitests.postman_collection.json -e LocalAPI.postman_environment.json
+
 # Shop API Application
 
 A .NET Core Web API application for managing an online shop with products, categories, users, and orders.
